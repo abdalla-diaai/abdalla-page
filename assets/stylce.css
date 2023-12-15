@@ -1,0 +1,12 @@
+.card {
+    width: 18rem;
+}
+
+.card-rows {
+    margin-block-end: 20px;
+    gap: 20px;
+}
+
+#top-left-card {
+    margin-left: 100px;
+}
