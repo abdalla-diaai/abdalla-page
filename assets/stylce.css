@@ -72,6 +72,7 @@
 
 .btn {
     background-color: var(--text-colour);
+    align-items: center;
 }
 /* hover effects for website buttons */
 .btn:hover {
