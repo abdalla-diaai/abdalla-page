@@ -1,10 +1,10 @@
+#about-me {
+   margin-block-start: 70px;
+   margin-block-end: 20px;
+   background-color: rgba(0, 0, 0, 0.05);
+   padding-block-end: 10px;
+}
 
-.jumbotron {
-    padding: 50px;
-}
-.carousel-caption {
-    background-color: rgba(0, 0, 0, 0.05);
-}
 /* 
 .card {
     width: 18rem;
@@ -32,10 +32,11 @@
 
 /* change navbar background colour */
 .navbar {
-    background-color: black !important;
+    background-color: rgba(0, 0, 0, 0.8) !important;
 }
 
-.nav-link, .navbar-brand {
+.nav-link,
+.navbar-brand {
     color: wheat !important;
 }
 
@@ -53,11 +54,21 @@
     background-color: grey;
 }
 
+#skills-section {
+    background-color: rgba(0, 0, 0, 0.05);
+    margin-block-end: 10px;
+    padding-block-end: 10px;
+
+}
+
+.list-group {
+    max-width: 75%;
+}
 /* Sticky footer style and color
 -------------------------------------------------- */
 footer {
-    padding-top: 30px;
-    background-color: black;
+    padding-block-start: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
     color: wheat;
 }
 
@@ -68,9 +79,11 @@ footer a {
 
 footer a:hover,
 footer a:focus {
-    color: #aaa;
+    color: white;
     text-decoration: none;
-    border-bottom: 1px dotted #999;
+    /* border-block-end: #aaa solid 1px; */
+    cursor: pointer;
+
 }
 
 footer .form-control {
@@ -82,9 +95,27 @@ footer .form-control {
     padding: 0.7em 1em;
 }
 
-#exampleInputEmail1, #exampleMessage, #send-button {
-    background-color: #aaa;
-    margin-block-end: 10px;
+#send-button:hover {
+    background-color: grey !important;
+    color: white;
+
+}
+
+#send-button {
+    background-color: wheat !important;
+    color: black;
+    border: black;
 }
 
 
+#exampleInputEmail1,
+#exampleMessage,
+#send-button {
+    background-color: white;
+    margin-block-end: 10px;
+}
+
+#exampleInputEmail1,
+#exampleMessage {
+    max-width: 70%;
+}
