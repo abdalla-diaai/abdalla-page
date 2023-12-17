@@ -1,18 +1,58 @@
+/* general font famliy to page */
 * {
     font-family: 'Merriweather', serif;
 }
 
-#about-me {
-   margin-block-start: 70px;
-   margin-block-end: 20px;
-   background-color: rgba(0, 0, 0, 0.05);
-   padding-block-end: 10px;
+:root {
+    --text-colour: wheat;
+    --light-black: rgba(0, 0, 0, 0.05);
+    --dark-black: rgba(0, 0, 0, 0.8);
+    --light-grey: lightgrey;
+    --all-black: black;
 }
 
-/* 
-.card {
-    width: 18rem;
-} */
+/* change navbar background colour */
+.navbar {
+    background-color: var( --dark-black) !important;
+}
+
+.nav-link,
+.navbar-brand {
+    color: var(--text-colour) !important;
+}
+
+.navbar-toggler {
+    background-color: var(--text-colour);
+}
+
+.navbar button {
+    background-color: var(--text-colour);
+    color: var( --all-black);
+    border: var( --all-black);
+    cursor: pointer;
+}
+
+.navbar button:hover {
+    background-color: var(--light-grey);
+    color: var( --all-black);
+    cursor: pointer;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: var(--light-grey);
+    cursor: pointer;
+}
+
+#about-me {
+   margin-block-start: 75px;
+   margin-block-end: 20px;
+   background-color: var( --light-black);
+   padding-block-start: 10px;
+   padding-block-end: 10px;
+   border-radius: 10px;
+}
 
 /* add gaps between and below rows */
 .card-rows {
@@ -22,7 +62,7 @@
 /* align columns in center */
 .card-cols {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     margin-block-end: 10px;
 }
 
@@ -33,55 +73,23 @@
     object-fit: cover;
 }
 
-
-/* change navbar background colour */
-.navbar {
-    background-color: rgba(0, 0, 0, 0.8) !important;
-}
-
-.nav-link,
-.navbar-brand {
-    color: wheat !important;
-}
-
-.navbar-toggler {
-    background-color: wheat;
-}
-
-.navbar button {
-    background-color: wheat;
-    color: black;
-    border: black;
-}
-
-.navbar button:hover {
-    background-color: lightgray;
-    cursor: pointer;
-}
-
-.dropdown-item:focus, .dropdown-item:hover {
-    color: #16181b;
-    text-decoration: none;
-    background: lightgray;
-    cursor: pointer;
-}
-
 #skills-section {
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color:  var( --light-black);
     margin-block-end: 10px;
+    padding-block-start: 10px;
     padding-block-end: 10px;
-
+    border-radius: 10px;
 }
 
 .list-group {
-    max-width: 75%;
+    max-width: 100%;
 }
-/* Sticky footer style and color
--------------------------------------------------- */
+
+/* footer style */
 footer {
     padding-block-start: 30px;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: wheat;
+    background-color: var( --dark-black);
+    color: var(--text-colour);
 }
 
 footer a {
@@ -103,18 +111,15 @@ footer address, p {
 }
 
 footer h7 {
-    color: lightgrey;
+    color: var(--light-grey);
 }
 
-
+/* media query to center footer on small screens */
 @media only screen and (max-width: 800px) {
-
-    .footer-cols {
+    #about-me, #skills-section, .footer-cols, #work-section {
         text-align: center;
     }
-
     #social-icons {
         justify-content: center;
     }
-    
 }
