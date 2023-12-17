@@ -34,7 +34,7 @@
 }
 
 .navbar button:hover {
-    background-color: var(--grey-background);
+    background-color: var(--light-grey);
     color: var( --all-black);
     cursor: pointer;
 }
@@ -68,6 +68,15 @@
     border-radius: 10px;
     padding-block-start: 10px;
 }
+
+/* hover effects for website buttons */
+.btn:hover {
+    background-color: #999;
+    border: #999;
+    color: white;
+    cursor: auto;
+}
+
 /* add gaps between and below rows */
 .card-rows {
     margin-block-end: 10px;
@@ -106,10 +115,6 @@ footer {
     color: var(--text-colour);
 }
 
-footer a {
-    color: #999;
-    text-decoration: none;
-}
 
 footer address, p {
     font-size: 12px;
@@ -121,7 +126,7 @@ footer address, p {
 
 .fa-brands:hover, .nav-item:hover {
     text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
-    cursor: pointer;
+    cursor: auto;
 }
 
 footer h7 {
