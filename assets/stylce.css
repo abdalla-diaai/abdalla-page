@@ -1,3 +1,7 @@
+* {
+    font-family: 'Merriweather', serif;
+}
+
 #about-me {
    margin-block-start: 70px;
    margin-block-end: 20px;
@@ -51,7 +55,15 @@
 }
 
 .navbar button:hover {
-    background-color: grey;
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background: lightgray;
+    cursor: pointer;
 }
 
 #skills-section {
@@ -77,24 +89,32 @@ footer a {
     text-decoration: none;
 }
 
-footer a:hover,
-footer a:focus {
-    color: white;
-    text-decoration: none;
-    /* border-block-end: #aaa solid 1px; */
-    cursor: pointer;
-
-}
-
-footer .form-control {
-    background-color: #1f2022;
-    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
-    border: none;
-    resize: none;
-    color: #d1d2d2;
-    padding: 0.7em 1em;
-}
-
 footer address, p {
     font-size: 12px;
+}
+
+.footer-heading {
+    margin-block-end: 10px;
+}
+
+.fa-brands:hover {
+    text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
+    cursor: pointer;
+}
+
+footer h7 {
+    color: lightgrey;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    .footer-cols {
+        text-align: center;
+    }
+
+    #social-icons {
+        justify-content: center;
+    }
+    
 }
