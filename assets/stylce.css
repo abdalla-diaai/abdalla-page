@@ -3,9 +3,10 @@
     font-family: 'Merriweather', serif;
 }
 
+/* colour variables */
 :root {
     --text-colour: wheat;
-    --light-black: rgba(0, 0, 0, 0.05);
+    --grey-background: rgba(0, 0, 0, 0.05);
     --dark-black: rgba(0, 0, 0, 0.8);
     --light-grey: lightgrey;
     --all-black: black;
@@ -33,7 +34,7 @@
 }
 
 .navbar button:hover {
-    background-color: var(--light-grey);
+    background-color: var(--grey-background);
     color: var( --all-black);
     cursor: pointer;
 }
@@ -48,12 +49,25 @@
 #about-me {
    margin-block-start: 75px;
    margin-block-end: 20px;
-   background-color: var( --light-black);
-   padding-block-start: 10px;
+   background-color: var(--grey-background);
+   padding-block-start: 25px;
    padding-block-end: 10px;
    border-radius: 10px;
 }
 
+/* profile icon */
+#profile-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block-end: 25px;
+}
+
+#work-section {
+    background-color: var(--grey-background);
+    border-radius: 10px;
+    padding-block-start: 10px;
+}
 /* add gaps between and below rows */
 .card-rows {
     margin-block-end: 10px;
@@ -74,7 +88,7 @@
 }
 
 #skills-section {
-    background-color:  var( --light-black);
+    background-color:  var(--grey-background);
     margin-block-end: 10px;
     padding-block-start: 10px;
     padding-block-end: 10px;
@@ -88,7 +102,7 @@
 /* footer style */
 footer {
     padding-block-start: 30px;
-    background-color: var( --dark-black);
+    background-color: var(--dark-black);
     color: var(--text-colour);
 }
 
@@ -105,7 +119,7 @@ footer address, p {
     margin-block-end: 10px;
 }
 
-.fa-brands:hover {
+.fa-brands:hover, .nav-item:hover {
     text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
     cursor: pointer;
 }
