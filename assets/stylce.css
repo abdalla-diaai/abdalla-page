@@ -1,27 +1,98 @@
+#about-me {
+    background-image: url("./images/rainbow.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50%;
+    margin-block-end: 20px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
 .card {
     width: 18rem;
 }
 
+/* add gaps between and below rows */
 .card-rows {
     margin-block-end: 20px;
     gap: 20px;
 }
 
+/* align columns in center */
 .col {
     display: flex;
     justify-content: center;
 }
 
+/* adjust images to 100% height to avoid size differences */
 .card-img-top {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
+/* footer background colour */
 #copy-right {
     background-color: rgba(0, 0, 0, 0.05);
 }
 
+/* change navbar background colour */
 .navbar {
-    background-color: blue !important;
+    background-color: black !important;
 }
+
+.nav-link, .navbar-brand {
+    color: wheat !important;
+}
+
+.navbar-toggler {
+    background-color: wheat;
+}
+
+.navbar button {
+    background-color: wheat;
+    color: black;
+    border: black;
+}
+
+.navbar button:hover {
+    background-color: grey;
+}
+
+/* Sticky footer style and color
+-------------------------------------------------- */
+footer {
+    padding-top: 30px;
+    background-color: #292c2f;
+    color: #bbb;
+}
+
+footer a {
+    color: #999;
+    text-decoration: none;
+}
+
+footer a:hover,
+footer a:focus {
+    color: #aaa;
+    text-decoration: none;
+    border-bottom: 1px dotted #999;
+}
+
+footer .form-control {
+    background-color: #1f2022;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    color: #d1d2d2;
+    padding: 0.7em 1em;
+}
+
+#exampleInputEmail1, #exampleMessage, #send-button {
+    background-color: #aaa;
+    margin-block-end: 10px;
+}
+
+
