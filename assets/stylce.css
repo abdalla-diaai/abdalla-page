@@ -10,6 +10,7 @@
     --dark-black: rgba(0, 0, 0, 0.8);
     --light-grey: lightgrey;
     --all-black: black;
+    --button-colour: #999
 }
 
 /* change navbar background colour */
@@ -34,8 +35,8 @@
 }
 
 .navbar button:hover {
-    background-color: var(--light-grey);
-    color: var( --all-black);
+    background-color: var(--button-colour);
+    color: white;
     cursor: pointer;
 }
 
@@ -69,10 +70,12 @@
     padding-block-start: 10px;
 }
 
+.btn {
+    background-color: var(--text-colour);
+}
 /* hover effects for website buttons */
 .btn:hover {
-    background-color: #999;
-    border: #999;
+    background-color: var(--button-colour);
     color: white;
     cursor: auto;
 }
