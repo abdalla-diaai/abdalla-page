@@ -95,27 +95,6 @@ footer .form-control {
     padding: 0.7em 1em;
 }
 
-#send-button:hover {
-    background-color: grey !important;
-    color: white;
-
-}
-
-#send-button {
-    background-color: wheat !important;
-    color: black;
-    border: black;
-}
-
-
-#exampleInputEmail1,
-#exampleMessage,
-#send-button {
-    background-color: white;
-    margin-block-end: 10px;
-}
-
-#exampleInputEmail1,
-#exampleMessage {
-    max-width: 70%;
+footer address, p {
+    font-size: 12px;
 }
