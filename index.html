@@ -88,7 +88,7 @@
       <h3>Work</h3>
       <div class="col-lg-4 col-md-4 col-sm-12 card-cols">
         <div class="card">
-          <img src="./assets/images/landing_page.png" class="card-img-top object-fit-fill"
+          <img src="./assets/images/landing_page.png" class="img-fluid"
             alt="landing page with some information about penguins">
           <div class="card-body">
             <h5 class="card-title">Tuxedo</h5>
@@ -98,9 +98,11 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-4 col-md-4 col-sm-12 card-cols" id="hide-col">
+
+      <!-- hide this column on smaller screens -->
+      <div class="col-lg-4 col-md-4 col-sm-12 card-cols d-none d-sm-flex">
         <div class="card">
-          <img src="./assets/images/Horiseon-deployed-screenshot.png" class="card-img-top object-fit-fill"
+          <img src="./assets/images/Horiseon.png" class="img-fluid"
             alt="webpage for horiseon company">
           <div class="card-body">
             <h5 class="card-title">Horiseon</h5>
@@ -112,7 +114,7 @@
       </div>
       <div class="col-lg-4 col-md-4 col-sm-12 card-cols">
         <div class="card">
-          <img src="./assets/images/tuxedo-portfolio-page.png" class="card-img-top object-fit-fill"
+          <img src="./assets/images/tuxedo-portfolio-page.png" class="img-fluid"
             alt="portfolio page with some projects">
           <div class="card-body">
             <h5 class="card-title">Portfolio</h5>
@@ -150,15 +152,20 @@
   <footer>
     <div class="container">
       <div class="row">
-        <div class="col-lg-2 col-md-2 col-sm-12 footer-cols footer-heading">
+        <div class="col-lg-4 col-md-4 col-sm-3 footer-cols footer-heading">
           <h6><i class="fa-solid fa-igloo"></i> igloo</h6>
+          <p>
+            <i class="fa-solid fa-envelope"></i> hello@tuxedo.com
+            <br>
+            <i class="fa-solid fa-phone"></i> +44 (0)1270 393733
+          </p>
         </div>
-        <div class="col-lg-4 col-md-3 col-sm-12 footer-cols">
+        <div class="col-lg-4 col-md-4 col-sm-3 d-none d-sm-block footer-cols">
           <div class="footer-heading">
             <h6>Headquarters</h6>
           </div>
           <address>
-            48 South Street
+            <i class="fa-solid fa-location-dot"></i> 48 South Street
             <br>
             Montgreenan
             <br>
@@ -169,7 +176,7 @@
             United Kingdom
           </address>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-12 footer-cols" id="contact-me">
+        <!-- <div class="col-lg-3 col-md-3 col-sm-3 footer-cols d-none d-sm-block" id="contact-me">
           <div class="footer-heading">
             <h6>Contact</h6>
           </div>
@@ -178,13 +185,13 @@
             <br>
             +44 (0)1270 393733
           </p>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-12 footer-cols">
+        </div> -->
+        <div class="col-lg-4 col-md-4 col-sm-6 footer-cols">
           <div class="footer-heading">
             <h6>Follow us</h6>
           </div>
           <ul class="nav" id="social-icons">
-            <li class="nav-item"><a href="https://www.facebook.com/" class="nav-link pl-0"><i
+            <li class="nav-item"><a href="https://www.facebook.com/" class="nav-link"><i
                   class="fa-brands fa-facebook fa-lg"></i></a></li>
             <li class="nav-item"><a href="https://twitter.com" class="nav-link"><i
                   class="fa-brands fa-x-twitter fa-lg"></i></a></li>

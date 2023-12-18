@@ -94,7 +94,7 @@
 }
 
 /* adjust images to 100% height to avoid size differences */
-.card-img-top {
+.img-fluid {
     height: 100%;
 }
 
@@ -135,6 +135,12 @@ h6 {
     color: var(--light-grey);
 }
 
+#about-me, #skills-section, .footer-cols, #work-section {
+    text-align: center;
+}
+#social-icons {
+    justify-content: center;
+}
 /* media query to center footer on small screens */
 @media only screen and (max-width: 800px) {
     #about-me, #skills-section, .footer-cols, #work-section {
