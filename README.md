@@ -5,7 +5,7 @@ updating tuxedo portfolio generated previously but using bootstrap.
 
 The challenge was to create a portfolio that is responsive on mobile, tablet and desktop using bootstrap. This portfolio should show websites created as cards and several sections such as about me, work, skills ... etc as well as a footer. The links should have shadow upon hovering. There are other requirements in the instructions README file in assets folder.
 
-Installation
+## Installation
 
 NA
 
