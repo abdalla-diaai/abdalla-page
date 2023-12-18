@@ -23,18 +23,17 @@
     color: var(--text-colour) !important;
 }
 
-.navbar-toggler {
+.navbar-toggler, .navbar button, .btn {
     background-color: var(--text-colour);
 }
 
 .navbar button {
-    background-color: var(--text-colour);
     color: var(--all-black);
     border: var(--all-black);
-    cursor: pointer;
 }
 
-.navbar button:hover {
+/* hover effects for navbar button and website buttons in work section */
+.navbar button:hover, .btn:hover {
     background-color: var(--button-colour);
     color: white;
     cursor: pointer;
@@ -51,11 +50,7 @@
 /* hero section styles */
 #hero-section {
     margin-block-start: 75px;
-    margin-block-end: 20px;
-    background-color: var(--grey-background);
-    padding-block-start: 25px;
     padding-block-end: 10px;
-    border-radius: 10px;
 }
 
 /* profile icon */
@@ -66,8 +61,8 @@
     margin-block-end: 25px;
 }
 
-/* work section styles */
-#work-section {
+/* combining common styles across page sections */
+#hero-section, #work-section, #skills-section, #about-me-contact {
     background-color: var(--grey-background);
     border-radius: 10px;
     padding-block-start: 10px;
@@ -75,15 +70,7 @@
 }
 
 .btn {
-    background-color: var(--text-colour);
     align-items: center;
-}
-
-/* hover effects for website buttons */
-.btn:hover {
-    background-color: var(--button-colour);
-    color: white;
-    cursor: pointer;
 }
 
 /* add gaps between and below rows */
@@ -109,11 +96,7 @@
 
 /* skills section styles */
 #skills-section, #about-me-contact  {
-    background-color: var(--grey-background);
-    margin-block-end: 20px;
-    padding-block-start: 10px;
     padding-block-end: 10px;
-    border-radius: 10px;
 }
 
 .list-group {
@@ -128,7 +111,7 @@
     color: var(--all-black);
 }
 
-/* footer style */
+/* footer styles */
 footer {
     padding-block-start: 30px;
     background-color: var(--dark-black);
@@ -144,6 +127,7 @@ p {
     margin-block-end: 10px;
 }
 
+/* hover effect for navbar and fa-brands in footer */
 .fa-brands:hover,
 .nav-item:hover {
     text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
