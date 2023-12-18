@@ -93,6 +93,11 @@
     margin-block-end: 10px;
 }
 
+.card:hover {
+    transform: scale(1.15);
+    cursor: zoom-in;
+}
+
 /* adjust images to 100% height to avoid size differences */
 .img-fluid {
     height: 100%;
@@ -117,7 +122,6 @@ footer {
     color: var(--text-colour);
 }
 
-
 footer address, p {
     font-size: 12px;
 }
@@ -135,7 +139,7 @@ h6 {
     color: var(--light-grey);
 }
 
-#about-me, #skills-section, .footer-cols, #work-section {
+.footer-cols {
     text-align: center;
 }
 #social-icons {
@@ -143,7 +147,7 @@ h6 {
 }
 /* media query to center footer on small screens */
 @media only screen and (max-width: 800px) {
-    #about-me, #skills-section, .footer-cols, #work-section {
+    #about-me, #skills-section, #work-section {
         text-align: center;
     }
     #social-icons {
