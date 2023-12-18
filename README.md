@@ -11,15 +11,15 @@ NA
 
 ## Usage
 
-The site displays correctly on iPhone SE, surface pro, iPad mini/pro tablets and wide display screen (Nest Hub Max). Screenshots of deployed site are below. iPhone/iPad views behave as expected either in portrait or landscape. Below are screenshot for different views. Link to github page: https://abdalla-diaai.github.io/bootstrap-portifolio/.
+The site displays correctly on iPhone XR, iPad mini/pro tablets and wide display screen (Nest Hub Max). Screenshots of deployed site are below. iPhone/iPad views behave as expected either in portrait or landscape. Below are screenshot for different views. Link to github page: https://abdalla-diaai.github.io/bootstrap-portifolio/.
 
-### iPhone SE
+### iPhone XR
 ![Alt text](<assets/images/iPhone XR.png>)
 
-### iPad mini
+### iPad Mini
 ![Alt text](<assets/images/iPad Mini.png>)
 
-### iPad pro
+### iPad Pro
 ![Alt text](<assets/images/iPad Pro.png>)
 
 ### Nest Hub Max
