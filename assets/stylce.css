@@ -13,9 +13,9 @@
     --button-colour: #999
 }
 
-/* change navbar background colour */
+/* navbar styles */
 .navbar {
-    background-color: var( --dark-black) !important;
+    background-color: var(--dark-black) !important;
 }
 
 .nav-link,
@@ -29,8 +29,8 @@
 
 .navbar button {
     background-color: var(--text-colour);
-    color: var( --all-black);
-    border: var( --all-black);
+    color: var(--all-black);
+    border: var(--all-black);
     cursor: pointer;
 }
 
@@ -40,20 +40,22 @@
     cursor: pointer;
 }
 
-.dropdown-item:focus, .dropdown-item:hover {
+.dropdown-item:focus,
+.dropdown-item:hover {
     color: #16181b;
     text-decoration: none;
     background-color: var(--light-grey);
     cursor: pointer;
 }
 
-#about-me {
-   margin-block-start: 75px;
-   margin-block-end: 20px;
-   background-color: var(--grey-background);
-   padding-block-start: 25px;
-   padding-block-end: 10px;
-   border-radius: 10px;
+/* hero section styles */
+#hero-section {
+    margin-block-start: 75px;
+    margin-block-end: 20px;
+    background-color: var(--grey-background);
+    padding-block-start: 25px;
+    padding-block-end: 10px;
+    border-radius: 10px;
 }
 
 /* profile icon */
@@ -64,6 +66,7 @@
     margin-block-end: 25px;
 }
 
+/* work section styles */
 #work-section {
     background-color: var(--grey-background);
     border-radius: 10px;
@@ -75,6 +78,7 @@
     background-color: var(--text-colour);
     align-items: center;
 }
+
 /* hover effects for website buttons */
 .btn:hover {
     background-color: var(--button-colour);
@@ -103,9 +107,10 @@
     height: 100%;
 }
 
-#skills-section {
-    background-color:  var(--grey-background);
-    margin-block-end: 10px;
+/* skills section styles */
+#skills-section, #about-me-contact  {
+    background-color: var(--grey-background);
+    margin-block-end: 20px;
     padding-block-start: 10px;
     padding-block-end: 10px;
     border-radius: 10px;
@@ -115,6 +120,14 @@
     max-width: 100%;
 }
 
+.accordion-button:not(.collapsed) {
+    background-color: var(--light-grey);
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--all-black);
+}
+
 /* footer style */
 footer {
     padding-block-start: 30px;
@@ -122,7 +135,8 @@ footer {
     color: var(--text-colour);
 }
 
-footer address, p {
+footer address,
+p {
     font-size: 12px;
 }
 
@@ -130,7 +144,8 @@ footer address, p {
     margin-block-end: 10px;
 }
 
-.fa-brands:hover, .nav-item:hover {
+.fa-brands:hover,
+.nav-item:hover {
     text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
     cursor: auto;
 }
@@ -142,9 +157,11 @@ h6 {
 .footer-cols {
     text-align: center;
 }
+
 #email:hover {
     text-decoration: underline;
 }
+
 #email {
     cursor: pointer;
     text-decoration: none;
@@ -154,15 +171,26 @@ h6 {
     color: var(--text-colour);
     text-decoration: none;
 }
+
 #social-icons {
     justify-content: center;
 }
+
 /* media query to center footer on small screens */
 @media only screen and (max-width: 800px) {
-    #about-me, #skills-section, #work-section {
+
+    #hero-section,
+    #skills-section,
+    #work-section,
+    #about-me-contact {
         text-align: center;
     }
+
     #social-icons {
         justify-content: center;
+    }
+
+    .accordion-body {
+        text-align: left;
     }
 }
