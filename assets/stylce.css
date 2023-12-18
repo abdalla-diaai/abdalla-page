@@ -83,7 +83,7 @@
 .btn:hover {
     background-color: var(--button-colour);
     color: white;
-    cursor: auto;
+    cursor: pointer;
 }
 
 /* add gaps between and below rows */
