@@ -10,7 +10,19 @@ NA
 
 ## Usage
 
-The site displays correctly on iPhone SE, surface pro tablet and wide display screen. Screenshots of deployed site are below. iPad view behaves as expected either in portrait or landscape.
+The site displays correctly on iPhone SE, surface pro, iPad mini/pro tablets and wide display screen (Nest Hub Max). Screenshots of deployed site are below. iPhone/iPad views behave as expected either in portrait or landscape. Below are screenshot for different views. 
+
+### iPhone SE
+![Alt text](<iPhone SE.png>)
+
+### iPad mini
+![Alt text](<iPad Mini.png>)
+
+### iPad pro
+![Alt text](<iPad Pro.png>)
+
+### Nest Hub Max
+![Alt text](<Nest Hub Max.png>)
 
 ## Credit
 

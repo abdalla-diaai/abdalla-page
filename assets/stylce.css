@@ -103,9 +103,6 @@
     height: 100%;
 }
 
-.img-card-top {
-    height: 100%;
-}
 #skills-section {
     background-color:  var(--grey-background);
     margin-block-end: 10px;
@@ -145,11 +142,18 @@ h6 {
 .footer-cols {
     text-align: center;
 }
-
+#email:hover {
+    text-decoration: underline;
+}
 #email {
-    color: var(--text-colour);
+    cursor: pointer;
+    text-decoration: none;
 }
 
+#contact-me p, a {
+    color: var(--text-colour);
+    text-decoration: none;
+}
 #social-icons {
     justify-content: center;
 }
