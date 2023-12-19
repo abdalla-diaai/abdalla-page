@@ -65,7 +65,7 @@
 #hero-section, #work-section, #skills-section, #about-me-contact {
     background-color: var(--grey-background);
     border-radius: 10px;
-    padding-block-start: 10px;
+    padding-block-start: 25px;
     margin-block-end: 20px;
 }
 
